@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+</head>
+<body>
+   
+  <nav class="nav">
+    <div class="logo">
+      Awesome Books 
+    </div>
+    <ul class="ul-nav">
+      <li class="nav-items1 list-nav">List</li>
+      <li class="nav-items2 list-nav">Add new</li>
+      <li class="nav-items3 list-nav">Contact</li>
+    </ul>
+  </nav>
+
+  <section class="date">
+    <p> </p>
+  </section>
+  
+
+  <header>
+    <h1>All Awesome Books</h1>
+  </header>
+
+  <section class="book-shelf">
+     
+  </section>
+
+  <section class="user-input">
+    <div class="line"></div>
+    <h2>Add a New Book</h2>
+   <input type="text" id="book" required placeholder="Title">
+   <input type="text" id="author" required placeholder="Author"> 
+    <button class="add-btn" type="submit">
+      Add
+    </button>
+    <p class="messages1">should not be empty</p>
+    <p class="messages2">already added</p>
+    <p class="messages3">added to the list</p>
+  </section>
+
+  <section class="contact">
+    <h1>Contact information</h1>
+
+    <p> Do have any questions or you just want to say "hello"? <br> you just can reach out to us!</p>
+    <ul class="contactul">
+      <li>Our e-mail yilikalt12@gmail.com</li>
+      <li>Our phone number: +251915835859</li>
+      <li>Our address: Streetname 22, 4654686 City Addis Ababa, Country Ethiopia  </li>
+    </ul>
+  </section>
+
+  <footer class="copyright">
+    <p>Copyright</p>
+  </footer>
+
+  <script type="module" src="./index.js"></script>
+  <script type="module" src="./modules/bookstored.js"></script>
+  <script type="module" src="./modules/messages.js"></script>
+  <script type="module" src="./modules/luxon.js"></script>
+  <script type="module" src="./modules/time.js"></script>
+</body>
+</html>
